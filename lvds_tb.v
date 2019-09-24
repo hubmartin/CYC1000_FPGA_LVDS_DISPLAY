@@ -43,16 +43,23 @@ lvds my_lvds (
 	
 	reg [9:0] rom_address;
 	reg [9:0] next_rom_address;
-	reg [7:0] text [0:10];
+	reg [7:0] text [0:1023];
 
 	wire [7:0] text_char;
-	assign text_char = text[text_column[1:0]];
+	assign text_char = text[text_column];
+
+	assign text_bit = text_char[0];
 
 	initial begin
-			text[0] = "A";
+			/*text[0] = "A";
 			text[1] = "h";
 			text[2] = "o";
-			text[3] = "j";
+			text[3] = "j";*/
+			
+			for(i = 0; i < 1024; i=i+1)
+			begin
+				text[i] = i;
+			end
 	end
 
 
@@ -60,7 +67,7 @@ lvds my_lvds (
 	begin
 			
 		rom_address <= next_rom_address;
-		next_rom_address<= { text[text_column[1:0]][6:0], y[2:0] };
+		next_rom_address<= { text[text_column][6:0], y[2:0] };
 
 	end
 
@@ -89,7 +96,7 @@ end
  
 
 initial begin
-	//$monitor("text_column %d, asii %c", text_column, text_char);
+	$monitor("text_column %d, asii %c, bit: %d", text_column, text_char, text_bit);
 
 end
                                   

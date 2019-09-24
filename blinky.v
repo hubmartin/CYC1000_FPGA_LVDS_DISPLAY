@@ -1,6 +1,10 @@
 
 //`include "pll_bb.v"
 
+/*
+font
+https://github.com/dhepper/font8x8/blob/master/font8x8_basic.h
+*/
 
 
 module blinky (button, clk_12mhz, led, uart_rx, uart_tx, lvds_clk, lvds_rx);
@@ -48,22 +52,26 @@ lvds my_lvds (
 	reg [7:0] uart_rx_buffer;
 	
 	
-	reg [7:0] text [0:10];
+	reg [6:0] text [0:127];
+	
+	integer i;
 	initial begin
-			text[0] = "A";
-			text[1] = "h";
-			text[2] = "o";
-			text[3] = "j";
+			for(i = 0; i < 128; i=i+1)
+			begin
+				text[i] = i;
+			end
 	end
 	
 	
-	wire [11:0] text_column;
-	wire [11:0] text_row;
+	wire [6:0] text_column;
+	wire [6:0] text_row;
 	
 	reg [9:0] next_rom_address;
 	
-	assign text_column = x[9:3];
-	assign text_row = y[9:3];
+	assign text_column = x[8:3];
+	assign text_row = y[8:3];
+	
+	//reg [6:0] next_character;
 	
 	always @(posedge lvds_clk_in)
 	begin
@@ -94,11 +102,13 @@ lvds my_lvds (
 			
 		rom_address <= next_rom_address;
 		
-		next_rom_address<= {x[9:3], y[2:0]};
-		//text[text_column[1:0]][6:0]
-			
-
+		next_rom_address<= {text[text_column], y[2:0]};
+		//text[text_column][6:0]
+		//x[9:3]
+		
+	
 	end
+	
 		
 /*
 	reg [7:0] memory [0:(32*32)-1];
@@ -169,7 +179,9 @@ lvds my_lvds (
 			uart_led <= ~uart_led;
 			
 			y_pos <= uart_rx_byte;
-			text[4] <= uart_rx_byte;
+			text[4] <= uart_rx_byte[6:0];
+			
+			 uart_tx_byte <= text[4];
 		end
 	end
 	
