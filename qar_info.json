@@ -1,0 +1,7 @@
+{
+	"common_dir" : "/home2/Develop/quartus/cyc1000/",
+	"acds_version" : "Version 17.1.0",
+	"platform" : "linux",
+	"os" : "Debian GNU/Linux",
+	"qpf" : "blinky.qpf"
+}
