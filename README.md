@@ -15,7 +15,8 @@ I wanted more powerful kit for this display so I could run some soft-core proces
 
 ## Current state
 
-Right now the code can only display text from serial port. SDRAM seems to work but needs finalization. It would need burst transfers to be fast enough to keep the data flowing just in time to send them over LVDS.
+Right now the code can only display text from serial port which is saved in the BRAMs.
+SDRAM seems to work but needs finalization to be used as a bitmap framebuffer. It would need burst transfers to be fast enough to keep the data flowing just in time to send them over LVDS.
 
 ![](doc/CYC1000_LVDS_DISPLAY.jpeg)
 
