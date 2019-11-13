@@ -1,0 +1,8 @@
+
+
+module animbox(clk, x, y, out)
+begin
+
+
+
+end

@@ -36,7 +36,9 @@ module uart(
     );
  //313 - 9600 @ 12MHz
  //26 - 115200 @ 12MHz
-parameter CLOCK_DIVIDE = 26; // clock rate (12Mhz) / (baud rate (9600) * 4)
+ //217 - 115200 @ 100MHz
+ //347 - 115200 @ 160 MHz
+parameter CLOCK_DIVIDE = 217; // clock rate (12Mhz) / (baud rate (9600) * 4)
  
 // States for the receiving state machine.
 // These are just constants, not parameters to override.

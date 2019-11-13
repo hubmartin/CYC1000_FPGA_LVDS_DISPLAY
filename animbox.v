@@ -4,6 +4,7 @@ module animbox(clk, x, y, out);
 
 parameter P_MAX_X = 500;
 parameter P_MAX_Y = 493;
+parameter DIVIDER_BIT = 20;
 
 input clk;
 input [11:0] x;
@@ -21,14 +22,20 @@ reg [11:0] pos_y = 12'd10;
 reg direction_x = 1'b1;
 reg direction_y = 1'b1;
 
+reg r_out = 1'b0;
+
 always @(posedge clk)
 begin
 	divider <= divider + 1;
+	
+	r_out <= ((y > pos_y & y < pos_y + 32) & (x > pos_x & x < pos_x + 32)) ? 1'b1 : 1'b0;
 end
 
-assign out = ((y > pos_y & y < pos_y + 32) & (x > pos_x & x < pos_x + 32)) ? 1'b1 : 1'b0;
+assign out = r_out;
 
-always @(posedge divider[20])
+//assign out = ((y > pos_y & y < pos_y + 32) & (x > pos_x & x < pos_x + 32)) ? 1'b1 : 1'b0;
+
+always @(posedge divider[DIVIDER_BIT])
 begin
 	if(direction_x == 1'b1)
 		pos_x <= pos_x + 1;

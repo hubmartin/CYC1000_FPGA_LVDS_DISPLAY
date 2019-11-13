@@ -1,0 +1,73 @@
+[*]
+[*] GTKWave Analyzer v3.3.66 (w)1999-2015 BSI
+[*] Sat Sep 21 18:38:54 2019
+[*]
+[dumpfile] "/home/hub/Desktop/dev/fpga-Cyclone/blinky_archive/output_lvds_test.vcd"
+[dumpfile_mtime] "Sat Sep 21 18:37:23 2019"
+[dumpfile_size] 10235008
+[savefile] "/home/hub/Desktop/dev/fpga-Cyclone/blinky_archive/output_lvds_gtkwave_view_file.gtkw"
+[timestart] 3088000
+[size] 1873 1056
+[pos] -1 -1
+*-19.527004 1670000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] stimulus.
+[sst_width] 225
+[signals_width] 254
+[sst_expanded] 1
+[sst_vpaned_height] 321
+@22
+stimulus.my_lvds.RX0DATA[0:6]
+stimulus.my_lvds.RX1DATA[0:6]
+stimulus.my_lvds.RX2DATA[0:6]
+stimulus.my_lvds.blue[5:0]
+@28
+stimulus.my_lvds.button
+stimulus.my_lvds.clk_in
+stimulus.my_lvds.clk_out
+@22
+stimulus.my_lvds.count[7:0]
+@28
+stimulus.my_lvds.dataenable
+@22
+stimulus.my_lvds.display_timer[5:0]
+stimulus.my_lvds.div[19:0]
+stimulus.my_lvds.green[5:0]
+stimulus.my_lvds.hcurrent[11:0]
+@28
+stimulus.my_lvds.hold[2:0]
+stimulus.my_lvds.hsync
+@22
+stimulus.my_lvds.led[7:0]
+stimulus.my_lvds.nextColor[17:0]
+@28
+stimulus.my_lvds.next_hsync
+@22
+stimulus.my_lvds.red[5:0]
+@28
+stimulus.my_lvds.rx[2:0]
+stimulus.my_lvds.slot[2:0]
+@22
+stimulus.my_lvds.vcurrent[11:0]
+@28
+stimulus.my_lvds.vsync
+@800025
+stimulus.my_lvds.x[11:0]
+@29
+(0)stimulus.my_lvds.x[11:0]
+(1)stimulus.my_lvds.x[11:0]
+(2)stimulus.my_lvds.x[11:0]
+(3)stimulus.my_lvds.x[11:0]
+(4)stimulus.my_lvds.x[11:0]
+(5)stimulus.my_lvds.x[11:0]
+(6)stimulus.my_lvds.x[11:0]
+(7)stimulus.my_lvds.x[11:0]
+(8)stimulus.my_lvds.x[11:0]
+(9)stimulus.my_lvds.x[11:0]
+(10)stimulus.my_lvds.x[11:0]
+(11)stimulus.my_lvds.x[11:0]
+@1001205
+-group_end
+@22
+stimulus.my_lvds.y[11:0]
+[pattern_trace] 1
+[pattern_trace] 0

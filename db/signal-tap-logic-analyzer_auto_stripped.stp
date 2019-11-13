@@ -1,0 +1,222 @@
+<session jtag_chain="Arrow-USB-Blaster [USB0]" jtag_device="@1: 10CL025(Y|Z)/EP3C25/EP4CE22 (0x020F30DD)" sof_file="">
+  <display_tree gui_logging_enabled="0">
+    <display_branch instance="auto_signaltap_0" signal_set="USE_GLOBAL_TEMP" trigger="USE_GLOBAL_TEMP"/>
+  </display_tree>
+  <mnemonics/>
+  <instance enabled="true" entity_name="sld_signaltap" is_auto_node="yes" is_expanded="true" name="auto_signaltap_0" source_file="sld_signaltap.vhd">
+    <node_ip_info instance_id="0" mfg_id="110" node_id="0" version="6"/>
+    <signal_set global_temp="1" is_expanded="true" name="signal_set: 2019/09/27 12:28:34  #0">
+      <clock name="clk_12mhz" polarity="posedge" tap_mode="probeonly"/>
+      <config pipeline_level="0" ram_type="AUTO" reserved_data_nodes="0" reserved_storage_qualifier_nodes="0" reserved_trigger_nodes="0" sample_depth="2048" trigger_in_enable="no" trigger_out_enable="no"/>
+      <top_entity/>
+      <signal_vec>
+        <trigger_input_vec>
+          <wire name="divider[0]~63" tap_mode="probeonly"/>
+          <wire name="divider[10]~39" tap_mode="probeonly"/>
+          <wire name="divider[11]~41" tap_mode="probeonly"/>
+          <wire name="divider[12]~43" tap_mode="probeonly"/>
+          <wire name="divider[13]~45" tap_mode="probeonly"/>
+          <wire name="divider[14]~47" tap_mode="probeonly"/>
+          <wire name="divider[15]~49" tap_mode="probeonly"/>
+          <wire name="divider[16]~51" tap_mode="probeonly"/>
+          <wire name="divider[17]~53" tap_mode="probeonly"/>
+          <wire name="divider[18]~55" tap_mode="probeonly"/>
+          <wire name="divider[19]~57" tap_mode="probeonly"/>
+          <wire name="divider[1]~21" tap_mode="probeonly"/>
+          <wire name="divider[20]~59" tap_mode="probeonly"/>
+          <wire name="divider[21]~61" tap_mode="probeonly"/>
+          <wire name="divider[2]~23" tap_mode="probeonly"/>
+          <wire name="divider[3]~25" tap_mode="probeonly"/>
+          <wire name="divider[4]~27" tap_mode="probeonly"/>
+          <wire name="divider[5]~29" tap_mode="probeonly"/>
+          <wire name="divider[6]~31" tap_mode="probeonly"/>
+          <wire name="divider[7]~33" tap_mode="probeonly"/>
+          <wire name="divider[8]~35" tap_mode="probeonly"/>
+          <wire name="divider[9]~37" tap_mode="probeonly"/>
+        </trigger_input_vec>
+        <data_input_vec>
+          <wire name="divider[0]~63" tap_mode="probeonly"/>
+          <wire name="divider[10]~39" tap_mode="probeonly"/>
+          <wire name="divider[11]~41" tap_mode="probeonly"/>
+          <wire name="divider[12]~43" tap_mode="probeonly"/>
+          <wire name="divider[13]~45" tap_mode="probeonly"/>
+          <wire name="divider[14]~47" tap_mode="probeonly"/>
+          <wire name="divider[15]~49" tap_mode="probeonly"/>
+          <wire name="divider[16]~51" tap_mode="probeonly"/>
+          <wire name="divider[17]~53" tap_mode="probeonly"/>
+          <wire name="divider[18]~55" tap_mode="probeonly"/>
+          <wire name="divider[19]~57" tap_mode="probeonly"/>
+          <wire name="divider[1]~21" tap_mode="probeonly"/>
+          <wire name="divider[20]~59" tap_mode="probeonly"/>
+          <wire name="divider[21]~61" tap_mode="probeonly"/>
+          <wire name="divider[2]~23" tap_mode="probeonly"/>
+          <wire name="divider[3]~25" tap_mode="probeonly"/>
+          <wire name="divider[4]~27" tap_mode="probeonly"/>
+          <wire name="divider[5]~29" tap_mode="probeonly"/>
+          <wire name="divider[6]~31" tap_mode="probeonly"/>
+          <wire name="divider[7]~33" tap_mode="probeonly"/>
+          <wire name="divider[8]~35" tap_mode="probeonly"/>
+          <wire name="divider[9]~37" tap_mode="probeonly"/>
+        </data_input_vec>
+        <storage_qualifier_input_vec>
+          <wire name="divider[0]~63" tap_mode="probeonly"/>
+          <wire name="divider[10]~39" tap_mode="probeonly"/>
+          <wire name="divider[11]~41" tap_mode="probeonly"/>
+          <wire name="divider[12]~43" tap_mode="probeonly"/>
+          <wire name="divider[13]~45" tap_mode="probeonly"/>
+          <wire name="divider[14]~47" tap_mode="probeonly"/>
+          <wire name="divider[15]~49" tap_mode="probeonly"/>
+          <wire name="divider[16]~51" tap_mode="probeonly"/>
+          <wire name="divider[17]~53" tap_mode="probeonly"/>
+          <wire name="divider[18]~55" tap_mode="probeonly"/>
+          <wire name="divider[19]~57" tap_mode="probeonly"/>
+          <wire name="divider[1]~21" tap_mode="probeonly"/>
+          <wire name="divider[20]~59" tap_mode="probeonly"/>
+          <wire name="divider[21]~61" tap_mode="probeonly"/>
+          <wire name="divider[2]~23" tap_mode="probeonly"/>
+          <wire name="divider[3]~25" tap_mode="probeonly"/>
+          <wire name="divider[4]~27" tap_mode="probeonly"/>
+          <wire name="divider[5]~29" tap_mode="probeonly"/>
+          <wire name="divider[6]~31" tap_mode="probeonly"/>
+          <wire name="divider[7]~33" tap_mode="probeonly"/>
+          <wire name="divider[8]~35" tap_mode="probeonly"/>
+          <wire name="divider[9]~37" tap_mode="probeonly"/>
+        </storage_qualifier_input_vec>
+      </signal_vec>
+      <presentation>
+        <unified_setup_data_view>
+          <node data_index="0" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[0]~63" storage_index="0" tap_mode="probeonly" trigger_index="0" type="unknown"/>
+          <node data_index="11" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[1]~21" storage_index="11" tap_mode="probeonly" trigger_index="11" type="unknown"/>
+          <node data_index="14" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[2]~23" storage_index="14" tap_mode="probeonly" trigger_index="14" type="unknown"/>
+          <node data_index="15" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" level-0="rising edge" name="divider[3]~25" storage_index="15" tap_mode="probeonly" trigger_index="15" type="unknown"/>
+          <node data_index="16" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[4]~27" storage_index="16" tap_mode="probeonly" trigger_index="16" type="unknown"/>
+          <node data_index="17" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[5]~29" storage_index="17" tap_mode="probeonly" trigger_index="17" type="unknown"/>
+          <node data_index="18" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[6]~31" storage_index="18" tap_mode="probeonly" trigger_index="18" type="unknown"/>
+          <node data_index="19" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[7]~33" storage_index="19" tap_mode="probeonly" trigger_index="19" type="unknown"/>
+          <node data_index="20" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[8]~35" storage_index="20" tap_mode="probeonly" trigger_index="20" type="unknown"/>
+          <node data_index="21" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[9]~37" storage_index="21" tap_mode="probeonly" trigger_index="21" type="unknown"/>
+          <node data_index="1" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[10]~39" storage_index="1" tap_mode="probeonly" trigger_index="1" type="unknown"/>
+          <node data_index="2" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[11]~41" storage_index="2" tap_mode="probeonly" trigger_index="2" type="unknown"/>
+          <node data_index="3" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[12]~43" storage_index="3" tap_mode="probeonly" trigger_index="3" type="unknown"/>
+          <node data_index="4" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[13]~45" storage_index="4" tap_mode="probeonly" trigger_index="4" type="unknown"/>
+          <node data_index="5" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[14]~47" storage_index="5" tap_mode="probeonly" trigger_index="5" type="unknown"/>
+          <node data_index="6" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[15]~49" storage_index="6" tap_mode="probeonly" trigger_index="6" type="unknown"/>
+          <node data_index="7" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[16]~51" storage_index="7" tap_mode="probeonly" trigger_index="7" type="unknown"/>
+          <node data_index="8" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[17]~53" storage_index="8" tap_mode="probeonly" trigger_index="8" type="unknown"/>
+          <node data_index="9" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[18]~55" storage_index="9" tap_mode="probeonly" trigger_index="9" type="unknown"/>
+          <node data_index="10" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[19]~57" storage_index="10" tap_mode="probeonly" trigger_index="10" type="unknown"/>
+          <node data_index="12" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[20]~59" storage_index="12" tap_mode="probeonly" trigger_index="12" type="unknown"/>
+          <node data_index="13" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[21]~61" storage_index="13" tap_mode="probeonly" trigger_index="13" type="unknown"/>
+        </unified_setup_data_view>
+        <data_view>
+          <net data_index="0" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[0]~63" storage_index="0" tap_mode="probeonly" trigger_index="0" type="unknown"/>
+          <net data_index="11" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[1]~21" storage_index="11" tap_mode="probeonly" trigger_index="11" type="unknown"/>
+          <net data_index="14" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[2]~23" storage_index="14" tap_mode="probeonly" trigger_index="14" type="unknown"/>
+          <net data_index="15" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" level-0="rising edge" name="divider[3]~25" storage_index="15" tap_mode="probeonly" trigger_index="15" type="unknown"/>
+          <net data_index="16" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[4]~27" storage_index="16" tap_mode="probeonly" trigger_index="16" type="unknown"/>
+          <net data_index="17" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[5]~29" storage_index="17" tap_mode="probeonly" trigger_index="17" type="unknown"/>
+          <net data_index="18" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[6]~31" storage_index="18" tap_mode="probeonly" trigger_index="18" type="unknown"/>
+          <net data_index="19" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[7]~33" storage_index="19" tap_mode="probeonly" trigger_index="19" type="unknown"/>
+          <net data_index="20" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[8]~35" storage_index="20" tap_mode="probeonly" trigger_index="20" type="unknown"/>
+          <net data_index="21" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[9]~37" storage_index="21" tap_mode="probeonly" trigger_index="21" type="unknown"/>
+          <net data_index="1" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[10]~39" storage_index="1" tap_mode="probeonly" trigger_index="1" type="unknown"/>
+          <net data_index="2" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[11]~41" storage_index="2" tap_mode="probeonly" trigger_index="2" type="unknown"/>
+          <net data_index="3" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[12]~43" storage_index="3" tap_mode="probeonly" trigger_index="3" type="unknown"/>
+          <net data_index="4" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[13]~45" storage_index="4" tap_mode="probeonly" trigger_index="4" type="unknown"/>
+          <net data_index="5" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[14]~47" storage_index="5" tap_mode="probeonly" trigger_index="5" type="unknown"/>
+          <net data_index="6" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[15]~49" storage_index="6" tap_mode="probeonly" trigger_index="6" type="unknown"/>
+          <net data_index="7" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[16]~51" storage_index="7" tap_mode="probeonly" trigger_index="7" type="unknown"/>
+          <net data_index="8" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[17]~53" storage_index="8" tap_mode="probeonly" trigger_index="8" type="unknown"/>
+          <net data_index="9" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[18]~55" storage_index="9" tap_mode="probeonly" trigger_index="9" type="unknown"/>
+          <net data_index="10" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[19]~57" storage_index="10" tap_mode="probeonly" trigger_index="10" type="unknown"/>
+          <net data_index="12" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[20]~59" storage_index="12" tap_mode="probeonly" trigger_index="12" type="unknown"/>
+          <net data_index="13" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[21]~61" storage_index="13" tap_mode="probeonly" trigger_index="13" type="unknown"/>
+        </data_view>
+        <setup_view>
+          <net data_index="0" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[0]~63" storage_index="0" tap_mode="probeonly" trigger_index="0" type="unknown"/>
+          <net data_index="11" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[1]~21" storage_index="11" tap_mode="probeonly" trigger_index="11" type="unknown"/>
+          <net data_index="14" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[2]~23" storage_index="14" tap_mode="probeonly" trigger_index="14" type="unknown"/>
+          <net data_index="15" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" level-0="rising edge" name="divider[3]~25" storage_index="15" tap_mode="probeonly" trigger_index="15" type="unknown"/>
+          <net data_index="16" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[4]~27" storage_index="16" tap_mode="probeonly" trigger_index="16" type="unknown"/>
+          <net data_index="17" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[5]~29" storage_index="17" tap_mode="probeonly" trigger_index="17" type="unknown"/>
+          <net data_index="18" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[6]~31" storage_index="18" tap_mode="probeonly" trigger_index="18" type="unknown"/>
+          <net data_index="19" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[7]~33" storage_index="19" tap_mode="probeonly" trigger_index="19" type="unknown"/>
+          <net data_index="20" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[8]~35" storage_index="20" tap_mode="probeonly" trigger_index="20" type="unknown"/>
+          <net data_index="21" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[9]~37" storage_index="21" tap_mode="probeonly" trigger_index="21" type="unknown"/>
+          <net data_index="1" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[10]~39" storage_index="1" tap_mode="probeonly" trigger_index="1" type="unknown"/>
+          <net data_index="2" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[11]~41" storage_index="2" tap_mode="probeonly" trigger_index="2" type="unknown"/>
+          <net data_index="3" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[12]~43" storage_index="3" tap_mode="probeonly" trigger_index="3" type="unknown"/>
+          <net data_index="4" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[13]~45" storage_index="4" tap_mode="probeonly" trigger_index="4" type="unknown"/>
+          <net data_index="5" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[14]~47" storage_index="5" tap_mode="probeonly" trigger_index="5" type="unknown"/>
+          <net data_index="6" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[15]~49" storage_index="6" tap_mode="probeonly" trigger_index="6" type="unknown"/>
+          <net data_index="7" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[16]~51" storage_index="7" tap_mode="probeonly" trigger_index="7" type="unknown"/>
+          <net data_index="8" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[17]~53" storage_index="8" tap_mode="probeonly" trigger_index="8" type="unknown"/>
+          <net data_index="9" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[18]~55" storage_index="9" tap_mode="probeonly" trigger_index="9" type="unknown"/>
+          <net data_index="10" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[19]~57" storage_index="10" tap_mode="probeonly" trigger_index="10" type="unknown"/>
+          <net data_index="12" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[20]~59" storage_index="12" tap_mode="probeonly" trigger_index="12" type="unknown"/>
+          <net data_index="13" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="divider[21]~61" storage_index="13" tap_mode="probeonly" trigger_index="13" type="unknown"/>
+        </setup_view>
+        <trigger_in_editor/>
+        <trigger_out_editor/>
+      </presentation>
+      <trigger CRC="1A9B3F9" attribute_mem_mode="false" gap_record="true" global_temp="1" is_expanded="true" name="trigger: 2019/09/27 12:28:34  #1" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="64" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="false" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_type="circular">
+        <power_up_trigger position="pre" storage_qualifier_disabled="no"/>
+        <events use_custom_flow_control="no">
+          <level editor="basic_or" enabled="yes" name="condition1" type="advanced"><power_up enabled="yes">
+              <power_up_expression><![CDATA[(mbpm('X',{'divider[0]~63'}) && variable(1)) || (mbpm('X',{'divider[10]~39'}) && variable(1)) || (mbpm('X',{'divider[11]~41'}) && variable(1)) || (mbpm('X',{'divider[12]~43'}) && variable(1)) || (mbpm('X',{'divider[13]~45'}) && variable(1)) || (mbpm('X',{'divider[14]~47'}) && variable(1)) || (mbpm('X',{'divider[15]~49'}) && variable(1)) || (mbpm('X',{'divider[16]~51'}) && variable(1)) || (mbpm('X',{'divider[17]~53'}) && variable(1)) || (mbpm('X',{'divider[18]~55'}) && variable(1)) || (mbpm('X',{'divider[19]~57'}) && variable(1)) || (mbpm('X',{'divider[1]~21'}) && variable(1)) || (mbpm('X',{'divider[20]~59'}) && variable(1)) || (mbpm('X',{'divider[21]~61'}) && variable(1)) || (mbpm('X',{'divider[2]~23'}) && variable(1)) || (mbpm('X',{'divider[3]~25'}) && variable(1)) || (mbpm('X',{'divider[4]~27'}) && variable(1)) || (mbpm('X',{'divider[5]~29'}) && variable(1)) || (mbpm('X',{'divider[6]~31'}) && variable(1)) || (mbpm('X',{'divider[7]~33'}) && variable(1)) || (mbpm('X',{'divider[8]~35'}) && variable(1)) || (mbpm('X',{'divider[9]~37'}) && variable(1))]]>
+              </power_up_expression>
+            </power_up><expression><![CDATA[(mbpm('X',{'divider[0]~63'}) && variable(0)) || (mbpm('X',{'divider[10]~39'}) && variable(0)) || (mbpm('X',{'divider[11]~41'}) && variable(0)) || (mbpm('X',{'divider[12]~43'}) && variable(0)) || (mbpm('X',{'divider[13]~45'}) && variable(0)) || (mbpm('X',{'divider[14]~47'}) && variable(0)) || (mbpm('X',{'divider[15]~49'}) && variable(0)) || (mbpm('X',{'divider[16]~51'}) && variable(0)) || (mbpm('X',{'divider[17]~53'}) && variable(0)) || (mbpm('X',{'divider[18]~55'}) && variable(0)) || (mbpm('X',{'divider[19]~57'}) && variable(0)) || (mbpm('X',{'divider[1]~21'}) && variable(0)) || (mbpm('X',{'divider[20]~59'}) && variable(0)) || (mbpm('X',{'divider[21]~61'}) && variable(0)) || (mbpm('X',{'divider[2]~23'}) && variable(0)) || (mbpm('R',{'divider[3]~25'}) && variable(1)) || (mbpm('X',{'divider[4]~27'}) && variable(0)) || (mbpm('X',{'divider[5]~29'}) && variable(0)) || (mbpm('X',{'divider[6]~31'}) && variable(0)) || (mbpm('X',{'divider[7]~33'}) && variable(0)) || (mbpm('X',{'divider[8]~35'}) && variable(0)) || (mbpm('X',{'divider[9]~37'}) && variable(0))]]>
+            </expression><op_node>
+              <op_node left="583" top="106" type="Advanced Trigger Level Result"/>
+            </op_node>
+          </level>
+        </events>
+        <storage_qualifier_events>
+          <transitional>1111111111111111111111
+            <pwr_up_transitional>1111111111111111111111</pwr_up_transitional>
+          </transitional>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+        </storage_qualifier_events>
+      </trigger>
+    </signal_set>
+    <position_info>
+      <single attribute="active tab" value="1"/>
+      <single attribute="data horizontal scroll position" value="0"/>
+      <single attribute="data vertical scroll position" value="0"/>
+      <single attribute="setup horizontal scroll position" value="0"/>
+      <single attribute="setup vertical scroll position" value="0"/>
+      <single attribute="zoom level denominator" value="1"/>
+      <single attribute="zoom level numerator" value="1"/>
+      <single attribute="zoom offset denominator" value="1"/>
+      <single attribute="zoom offset numerator" value="130944"/>
+    </position_info>
+  </instance>
+  <static_plugin_mnemonics/>
+  <global_info>
+    <single attribute="active instance" value="0"/>
+    <single attribute="config widget visible" value="1"/>
+    <single attribute="data log widget visible" value="1"/>
+    <single attribute="hierarchy widget visible" value="1"/>
+    <single attribute="instance widget visible" value="1"/>
+    <single attribute="jtag widget visible" value="1"/>
+    <single attribute="lock mode" value="0"/>
+    <single attribute="sof manager visible" value="1"/>
+    <multi attribute="column width" size="23" value="34,34,220,74,68,78,95,96,98,98,88,88,175,101,101,101,101,101,101,101,101,107,78"/>
+    <multi attribute="frame size" size="2" value="1873,1056"/>
+    <multi attribute="jtag widget size" size="2" value="382,210"/>
+  </global_info>
+</session>

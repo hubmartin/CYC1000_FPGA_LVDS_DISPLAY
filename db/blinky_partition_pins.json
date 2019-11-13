@@ -1,0 +1,169 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "led[0]",
+					"strict" : false
+				},
+				{
+					"name" : "led[1]",
+					"strict" : false
+				},
+				{
+					"name" : "led[3]",
+					"strict" : false
+				},
+				{
+					"name" : "led[4]",
+					"strict" : false
+				},
+				{
+					"name" : "uart_tx",
+					"strict" : false
+				},
+				{
+					"name" : "lvds_clk",
+					"strict" : false
+				},
+				{
+					"name" : "lvds_rx[0]",
+					"strict" : false
+				},
+				{
+					"name" : "lvds_rx[1]",
+					"strict" : false
+				},
+				{
+					"name" : "lvds_rx[2]",
+					"strict" : false
+				},
+				{
+					"name" : "lvds_even_rx[0]",
+					"strict" : false
+				},
+				{
+					"name" : "lvds_even_rx[1]",
+					"strict" : false
+				},
+				{
+					"name" : "lvds_even_rx[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DQM[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DQM[1]",
+					"strict" : false
+				},
+				{
+					"name" : "A[4]",
+					"strict" : false
+				},
+				{
+					"name" : "A[5]",
+					"strict" : false
+				},
+				{
+					"name" : "A[9]",
+					"strict" : false
+				},
+				{
+					"name" : "A[10]",
+					"strict" : false
+				},
+				{
+					"name" : "RAS",
+					"strict" : false
+				},
+				{
+					"name" : "WE",
+					"strict" : false
+				},
+				{
+					"name" : "CAS",
+					"strict" : false
+				},
+				{
+					"name" : "DQ[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DQ[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DQ[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DQ[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DQ[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DQ[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DQ[6]",
+					"strict" : false
+				},
+				{
+					"name" : "DQ[7]",
+					"strict" : false
+				},
+				{
+					"name" : "DQ[8]",
+					"strict" : false
+				},
+				{
+					"name" : "DQ[9]",
+					"strict" : false
+				},
+				{
+					"name" : "DQ[10]",
+					"strict" : false
+				},
+				{
+					"name" : "DQ[11]",
+					"strict" : false
+				},
+				{
+					"name" : "DQ[12]",
+					"strict" : false
+				},
+				{
+					"name" : "DQ[13]",
+					"strict" : false
+				},
+				{
+					"name" : "DQ[14]",
+					"strict" : false
+				},
+				{
+					"name" : "DQ[15]",
+					"strict" : false
+				},
+				{
+					"name" : "button",
+					"strict" : false
+				},
+				{
+					"name" : "clk_12mhz",
+					"strict" : false
+				},
+				{
+					"name" : "uart_rx",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -9,12 +9,12 @@ reg button;
 
 wire [7:0]  led;
 
-wire[2:0] rx;
+wire[2:0] rx, rx_even;
 wire clk_out;
 
 wire [11:0] x;
 wire [11:0] y;
-wire [23:0] color;
+wire [23:0] color, color_even;
 
 
 // assign statements (if any)                          
@@ -26,13 +26,16 @@ lvds my_lvds (
 	
 	.clk_out(clk_out),
 	.rx(rx),
+	.rx_even(rx_even),
 
 	.x(x),
 	.y(y),
-	.color(color)
+	.color(color_even),
+	.color_even(color_even)
 
 );
 	assign color =  24'b0;
+	assign color_even =  24'h00FF00;
 
 		
 	wire [11:0] text_column;
@@ -58,7 +61,7 @@ lvds my_lvds (
 			
 			for(i = 0; i < 1024; i=i+1)
 			begin
-				text[i] = i;
+				text[i] = "A";
 			end
 	end
 
@@ -96,8 +99,7 @@ end
  
 
 initial begin
-	$monitor("text_column %d, asii %c, bit: %d", text_column, text_char, text_bit);
-
+	//$monitor("text_column %d, asii %c, bit: %d", text_column, text_char, text_bit);
 end
                                   
 endmodule
